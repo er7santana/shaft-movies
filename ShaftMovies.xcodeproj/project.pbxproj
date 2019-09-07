@@ -12,6 +12,7 @@
 		13C39D96232457900086AFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C39D94232457900086AFF3 /* Main.storyboard */; };
 		13C39D98232457920086AFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C39D97232457920086AFF3 /* Assets.xcassets */; };
 		13C39D9B232457920086AFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C39D99232457920086AFF3 /* LaunchScreen.storyboard */; };
+		13C39DA323245A090086AFF3 /* CategoryRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C39DA223245A090086AFF3 /* CategoryRowTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13C39D97232457920086AFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13C39D9A232457920086AFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13C39D9C232457920086AFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C39DA223245A090086AFF3 /* CategoryRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				13C39D90232457900086AFF3 /* AppDelegate.swift */,
 				13C39D92232457900086AFF3 /* ViewController.swift */,
+				13C39DA223245A090086AFF3 /* CategoryRowTableViewCell.swift */,
 				13C39D94232457900086AFF3 /* Main.storyboard */,
 				13C39D97232457920086AFF3 /* Assets.xcassets */,
 				13C39D99232457920086AFF3 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C39D93232457900086AFF3 /* ViewController.swift in Sources */,
+				13C39DA323245A090086AFF3 /* CategoryRowTableViewCell.swift in Sources */,
 				13C39D91232457900086AFF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shaft7.ShaftMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaft7.shaftmovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shaft7.ShaftMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaft7.shaftmovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
